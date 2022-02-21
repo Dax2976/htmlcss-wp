@@ -10,6 +10,30 @@ body{
 
 }
 
+/**** prima sezione ****/
+
+.logo{
+    border-right: 1px solid grey;
+	padding-right: 25px;
+	resize: both;
+	height: 90px;
+	width: auto;
+}
+
+a {
+	text-decoration: none;
+	padding-right: 1rem;
+	color: grey;
+	font-size: 1rem;
+}
+
+.menu_list > ul > li {
+	display: inline-block;
+}
+.list{
+    list-style: none;
+}
+
 .tre_colonne::after{
     content:"";
     display: table;
