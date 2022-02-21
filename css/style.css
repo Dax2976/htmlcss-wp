@@ -6,9 +6,13 @@
 
 
 body{
-    padding:1rem;
+    width: 70%;
+    color: gray;
+    margin: auto;
 
 }
+
+
 
 /**** prima sezione ****/
 
@@ -16,8 +20,12 @@ body{
     border-right: 1px solid grey;
 	padding-right: 25px;
 	resize: both;
-	height: 90px;
+	height: 60px;
 	width: auto;
+}
+
+.margin_bottom{
+    margin-bottom: 1.2rem;
 }
 
 a {
@@ -25,6 +33,7 @@ a {
 	padding-right: 1rem;
 	color: grey;
 	font-size: 1rem;
+    margin-bottom: 10%;
 }
 
 .menu_list > ul > li {
@@ -48,7 +57,7 @@ a {
 }
 
 .site_header{
-    background-color: pink;
+   
     height: 100px;
     margin-bottom: 1%;
 }
@@ -61,7 +70,7 @@ a {
 }
 
 .primary{
-    background-color: aqua;
+    
     height: 500px;
     margin-bottom: 1%;
 }
@@ -103,4 +112,22 @@ aside{
     background-color: grey;
     height: 100px;
     margin-top: 1%;
+}
+
+.image_yoga{
+    background-image: url(/img4/banner.jpg);
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	filter: brightness(0.9); 
+	height: 500px;
+	border-radius: 1rem;
+	margin: 1rem 0;
+}
+
+.testo_yoga{
+    padding-left: 3rem;
+    padding-top: 18rem;
+    color: white;
+    width: 70%;
 }
